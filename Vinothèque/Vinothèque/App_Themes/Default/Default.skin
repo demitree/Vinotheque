@@ -1,0 +1,9 @@
+<asp:DropDownList ForeColor="#003063" runat="server" height = "20px" width = "170px" font-size = "small"></asp:DropDownList>
+
+<asp:Label runat="server" BackColor="transparent" font-size = "small"></asp:Label>
+
+<asp:TextBox runat="server" valign="middle" height = "20px" ForeColor="#000000" font-size = "small"></asp:TextBox>
+
+<asp:Button runat="server" BackColor="transparent" CssClass="button" ></asp:Button>
+
+<asp:LinkButton runat="server" Font-Bold="True" ForeColor="White" Font-Names="Century Gothic" Font-Size="Medium" Font-Underline="True" ></asp:LinkButton>

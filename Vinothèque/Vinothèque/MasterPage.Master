@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Vinothèque.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+
+    </title>
+    <!--<link href="Default.css" rel="stylesheet" type="text/css" />-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!-- Zone : En tête -->
+        <div class="header">
+            <asp:ContentPlaceHolder ID="header" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+          <!-- Zone : Centre -->
+        <div class="page">
+            <!-- Zone : Zone contenant le contenu des pages enfants dans un contrôle
+            <asp :contentplaceholder> -->
+            <div class="content">
+                    <asp:ContentPlaceHolder ID="Main" runat="server">
+                    </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+       
+         <!-- Zone : Pied de page -->
+        <div class="footer">
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
